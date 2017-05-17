@@ -3,6 +3,6 @@
 pushd ${HOME}
 if [ -d node_modules ]; then
     # all deps contents to tar stream
-    tar -cvf - --exclude=".*" node_modules
+    tar cf - node_modules
 fi
 popd
