@@ -3,6 +3,6 @@
 pushd ${HOME}
 if [ -d node_modules ]; then
     # all deps contents to tar stream
-    tar cf - node_modules
+    tar cfz - node_modules
 fi
 popd
