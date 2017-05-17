@@ -58,8 +58,5 @@ fi
 echo "---> Building your Node application from source"
 npm install
 
-echo "---> Compiling..."
-npm run compile
-
 # Fix source directory permissions
 fix-permissions ./
