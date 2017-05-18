@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-core": "^6.24.1",
     "mongodb": "^2.2.26"
   }
 }
