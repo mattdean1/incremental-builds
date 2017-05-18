@@ -21,9 +21,9 @@ set -e
 echo "Using custom assembly script!"
 
 # restore build artifacts if they exist
-if [ "$(ls /tmp/s2i/artifacts/ 2>/dev/null)" ]; then
+if [ "$(ls /tmp/artifacts/ 2>/dev/null)" ]; then
     echo "---> Restoring build artifacts ..."
-    mv /tmp/s2i/artifacts/* ./
+    mv /tmp/artifacts/* ./
 fi
 
 shopt -s dotglob
